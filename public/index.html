@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ParkBooking - Accueil</title>
+        <link rel="shortcut icon" href="assets/parking.png" type="image/png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+        />
+    </head>
+    <body>
+        <!-- START : HEADER -->
+        <header class="container-fluid my-header bg-light">
+            <div class="row">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light bg-light"
+                    aria-label="Barre de navigation"
+                >
+                    <div class="container-fluid px-0">
+                        <a class="navbar-brand align-self-start" href="#">
+                            <img
+                                src="assets/parking.png"
+                                alt="#"
+                                width="40"
+                                height="auto"
+                            />
+                            <h1 class="d-inline-block align-text-top ps-3">
+                                ParkBooking
+                            </h1>
+                        </a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse m-2"
+                            id="navbarSupportedContent"
+                        >
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                                <li class="nav-item mx-3">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="#"
+                                        >Accueil</a
+                                    >
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" href="reservations.html"
+                                        >Réservations</a
+                                    >
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" href="parkings.html">
+                                        Parkings
+                                    </a>
+                                </li>
+                                <li class="nav-item mx-3 dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        id="navbarDropdown"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            fill="warning"
+                                            class="bi bi-person-circle"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                                            />
+                                        </svg>
+                                        Mon espace
+                                    </a>
+                                    <ul
+                                        class="dropdown-menu"
+                                        aria-labelledby="navbarDropdown"
+                                    >
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Mon profil</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Mon historique</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Mes paramètres</a
+                                            >
+                                        </li>
+                                        <li><hr class="dropdown-divider" /></li>
+                                        <li>
+                                            <a
+                                                class="dropdown-item text-primary"
+                                                href="index.html"
+                                            >
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="18"
+                                                    height="18"
+                                                    fill="currentColor"
+                                                    class="bi bi-plugin"
+                                                    viewBox="0 0 16 16"
+                                                >
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0Z"
+                                                    />
+                                                </svg>
+                                                Déconnexion</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <form class="d-flex my-3">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Rechercher ..."
+                        aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">
+                        Rechercher
+                    </button>
+                </form>
+            </div>
+        </header>
+        <!-- END : HEADER -->
+
+        <!-- START : MAIN CONTENT-->
+        <div class="container-fluid myMainContent">
+            <div class="row">
+                <div class="col">
+                    <h2>Bienvenue sur l'interface de gestion de parking !</h2>
+                </div>
+            </div>
+            <div class="row no-gutters justify-content-between">
+                <!-- <div class="col-3">
+          <form>
+            <div class="form-group">
+              <label for="firstName">Nom</label>
+              <input type="text" name="firstName" class="form-control" id="firstName">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Prénom</label>
+              <input type="text" name="lastName" class="form-control" id="lastName">
+            </div>
+            <div class="form-group">
+              <label for="grade">Classe</label>
+              <input type="number" name="grade" class="form-control" id="grade">
+            </div>
+            <div class="form-group">
+              <label for="numberClass">Classe</label>
+              <input type="number" name="numberClass" class="form-control" id="numberClass">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="sendForm(firstName.value, lastName.value, grade.value, numberClass.value)">Enregistrer</button>
+          </form>
+        </div> -->
+                <div class="col mx-auto">
+                    <a
+                        class="btn btn-primary"
+                        id="reservation_btn"
+                        type="submit"
+                        href="reservations.html"
+                    >
+                        Voir les réservations
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- END : MAIN CONTENT-->
+
+        <!-- START : FOOTER -->
+        <footer class="my-footer bg-light mt-4">
+            <div class="container">
+                <div class="row pt-4 pb-3">
+                    <div class="col">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#">À propos</a></li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item"><a href="#">Nous contacter</a></li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item"><a href="#">Vie privée</a></li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item"><a href="#">Conditions d'utilisation</a></li>
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item"><a href="#">Crédits</a></li>
+                    </ul>
+                    </div>
+                </div>
+            <!-- <a
+                href="https://www.flaticon.com/fr/icones-gratuites/voiture"
+                title="voiture icônes"
+                >Favicon - Voiture icônes créées par Freepik - Flaticon</a
+            > -->
+        </footer>
+        <!-- END : FOOTER -->
+        <script src="scripts/home.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
