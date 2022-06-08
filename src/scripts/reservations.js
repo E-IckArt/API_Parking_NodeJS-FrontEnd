@@ -31,6 +31,26 @@ function displayData(dataTable) {
             newCell.appendChild(newText);
             counter++;
         }
+
+        // Ajoute le bouton "modifier" sur chaque ligne
+        let modifText = 'Modifier';
+        const modifBtnCell = newRow.insertCell(-1); // Insère une cellule à la fin de la ligne
+        const modifBtn = document.createElement('button');
+        const modifBtnText = document.createTextNode(modifText);
+        modifBtn.classList.add(`btn`, `btn-warning`);
+        modifBtn.setAttribute(`id`, `modifParking${parking.id}`);
+        modifBtn.appendChild(modifBtnText);
+        modifBtnCell.appendChild(modifBtn);
+
+        // Ajoute le bouton "supprimer" sur chaque ligne
+        let deleteText = 'Supprimer';
+        const deleteBtnCell = newRow.insertCell(-1);
+        const deleteBtn = document.createElement('button');
+        const deleteBtnText = document.createTextNode(deleteText);
+        deleteBtn.classList.add(`btn`, `btn-danger`);
+        deleteBtn.setAttribute(`id`, `deleteParking${parking.id}`);
+        deleteBtn.appendChild(deleteBtnText);
+        deleteBtnCell.appendChild(deleteBtn);
     }
     reservationCount.innerText = `(${reservations.length})`; //Affiche le nombre de réservations dans la zone dédiée
 }
