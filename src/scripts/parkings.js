@@ -17,7 +17,6 @@ function manageResponse(response) {
 }
 
 function displayData(dataTable) {
-    console.table(dataTable);
     const parkings = []; // Création d'une liste des reservations
     for (let parking of dataTable) {
         Reflect.deleteProperty(parking, '_id'); // Retire les propriétés qu'on ne veut pas afficher

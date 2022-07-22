@@ -1,9 +1,10 @@
-// Code d'import de jsdom et jquery après 'npm install' des deux
-// Source : https://www.npmjs.com/package/jquery
+/* Code d'import de jsdom et jquery après 'npm install' des deux
+Source : https://www.npmjs.com/package/jquery
 
-// const { JSDOM } = require('jsdom');
-// const { window } = new JSDOM('');
-// const $ = require('jquery')(window);
+const { JSDOM } = require('jsdom');
+const { window } = new JSDOM('');
+const $ = require('jquery')(window);
+*/
 
 // Fonction de recherche des réservations et des parkings à l'aide de la barre de recherche
 $(document).ready(function () {
