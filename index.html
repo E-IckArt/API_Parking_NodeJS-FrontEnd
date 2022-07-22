@@ -172,27 +172,25 @@
                 </div>
             </div>
             <div class="row no-gutters justify-content-between">
-                <!-- START : Template for Connection Form-->
-                <!-- TODO -Implement Ft Connexion -->
-                <!-- <div class="col-3">
+                <!-- START : Template for Connexion Form-->
+                <div class="col-3 mx-auto my-5">
                     <form>
                         <div class="form-group">
-                            <label for="email">Nom</label>
-                            <input type="email" name="email" class="form-control" id="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="name@example.fr">
                         </div>
                         <div class="form-group">
-                            <label for="password">Prénom</label>
-                            <input type="password" name="password" class="form-control" id="password">
+                            <label for="password">Mot de Passe</label>
+                            <input type="password" name="password" class="form-control" id="password" placeholder="pAs5wOrd">
                         </div>
-                        <div class="form-group">
-                            <label for="numberClass">Classe</label>
-                            <input type="number" name="numberClass" class="form-control" id="numberClass">
-                        </div>
-                        <button type="button" class="btn btn-primary" onclick="sendForm(email.value, password.value)">Se connecter</button>
+                        <button type="button" class="btn btn-primary my-3" onclick="sendForm(email.value, password.value)">Se connecter</button>
+                        <!-- TODO -Implement Ft Connexion -->
                     </form>
-                </div> -->
-                <!-- END : Template for Connection Form-->
-                <div class="col mx-auto">
+                </div>
+                <!-- END : Template for Connexion Form-->
+                <!-- TODO -Ft - Reservations must be visible only after connexon auth -->
+                <div class="row no-gutters justify-content-between">
+                    <div class="col mx-auto my-5 text-center">
                     <a
                         class="btn btn-primary"
                         id="reservation_btn"
@@ -202,6 +200,8 @@
                         Voir les réservations
                     </a>
                 </div>
+                </div>
+                
             </div>
         </div>
         <!-- END : MAIN CONTENT-->
