@@ -105,3 +105,6 @@ dist
 
 # VSCode settings
 .vscode
+
+# JS
+code-test.js
